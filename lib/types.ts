@@ -33,3 +33,16 @@ export type State = {
   returnTime: string;
   updatedAt: string;
 };
+
+export type Member = {
+  id: number;
+  name: string;
+};
+
+export type State = {
+  memberId: number;
+  name: string;
+  location: string;
+  returnTime: string;
+  updatedAt: string;
+};
